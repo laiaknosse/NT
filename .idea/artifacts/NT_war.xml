@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NT:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>NT</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="NT-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="NT:war exploded" />
+    </root>
+  </artifact>
+</component>
